@@ -1,11 +1,38 @@
 Welcome to GitHub Shweta 
 
+
+follow
+Project folder  --> to git local repository :: commit 
+git local repository --> git remote repository:: push 
+
  Ways to open the GitHub 
 1) use the command line / terminal
 2) use the git bash 
 
 open the project location 
 1) Tell git who are you 
-only in small letters only 
-git config --global user.name "username"
-git config --global user.email "abc@gmail.com"
+only in small letters only
+  One time activity 
+  git config --global user.name "username"
+  git config --global user.email "abc@gmail.com"
+
+2) git init -- create local repository   .git hidden folder
+  
+for checking the status  git status 
+
+3) stagging area: your code is ready to be committed  
+   git add */. means all file 
+
+4) commit command :
+   git commit -m "First Commit"  -- code goes to your local repo
+
+5) git remote add origin  "  "  -set remote repo
+
+6) git push origin master 
+
+update file /new files add 
+second time push 
+
+git add *
+git commit -m "second"
+git push origin master 
