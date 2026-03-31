@@ -1,0 +1,11 @@
+Welcome to GitHub Shweta 
+
+ Ways to open the GitHub 
+1) use the command line / terminal
+2) use the git bash 
+
+open the project location 
+1) Tell git who are you 
+only in small letters only 
+git config --global user.name "username"
+git config --global user.email "abc@gmail.com"
