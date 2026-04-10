@@ -26,13 +26,68 @@ for checking the status  git status
 4) commit command :
    git commit -m "First Commit"  -- code goes to your local repo
 
-5) git remote add origin  "  "  -set remote repo
+5) git remote add origin  "  "  -set /Connect  remote repo
 
-6) git push origin master 
+6) git push origin master    -- push the branch to your remote repository 
 
 update file /new files add 
 second time push 
 
-git add *
-git commit -m "second"
-git push origin master 
+1)git add * -- staging 
+  git add <---file name --> 
+2)git commit -m "second" -- commit
+3) git push origin master  --push 
+
+** Log of file **
+To check the history we have 
+git log (latest commit on top )  
+
+git log --oneline          Display the output as one commit per line 
+	git log --stat     Displays the files that have been modified 
+	git log -p         Display the modified files with location 
+	git log --graph    Display git log as a graph 
+	git log --graph --oneline Display to more specific output 
+
+***Filtering the commit history***
+ By amount  
+	git log -3   Display the last 3 commit 
+ By date and time 
+        git log --after "yy-mm-dd"  Display filter output by data and time 
+	git log --after="2023-10-3 --before="2023-10-1"
+ By Author 
+        git log -author ="Author Name" 
+ By Commit Message 
+	git log --grep ="Commit Message "
+
+****Help *****
+
+git --help  	See all possible commands 
+git help --all	if you find yourself stuck in the list view Shift +G to jump the end of the list then q to exit the view 
+
+*****Git clone from GitHub ****
+We can clone repository from GitHub 
+
+for new Developer   Blank folder -> go to the location -> git clone "URL"
+
+git clone "<Copied URL>"  ONE time activity   
+
+git clone branch 
+ Git allows making a copy of only a particular branch from a repository .You can make  a directory for the individual branch by using the git clone command 
+
+git clone -b <Branch name><RepositoryURL>
+     
+
+
+#push -- local to remote 
+
+#pull --Remote to local 
+
+the process of extracting code from remote Git hub repository to git local repository to is called as Pull .
+
+git pull origin master /<branchName>  
+
+
+
+
+
+
