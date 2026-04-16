@@ -87,7 +87,32 @@ the process of extracting code from remote Git hub repository to git local repos
 git pull origin master /<branchName>  
 
 
+*** Branch 
+Default branch -master
+branch = section 
+Why we need branching 
+Subject -daily run -master branch
+xyz -create new branch -develop branch -complete
+old code (master) +new code(develop)
+
+Branch is a separate version of the main repository branches allow you to work on different parts of a project without impacting the main branch . When the work is complete, a branch can be merged with the main project .We can even switch between branches and work on different projects without them interfering with each other
 
 
+Making a new git branch 
+git branch <name of branch>
 
+Checking all available branches
+git branch
+
+Switching to other branches
+git checkout <branch_name>
+
+Making a New branch and directly switching to it
+git checkout -b <branch_name>
+
+Deleting a branch 
+git branch -d <branch name>
+
+Checking the remote path 
+git remote -v
 
