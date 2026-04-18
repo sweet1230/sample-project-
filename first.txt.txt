@@ -116,3 +116,36 @@ git branch -d <branch name>
 Checking the remote path 
 git remote -v
 
+Merging two branches 
+	its preferred to change /switch to master branch before any branch needs to be merged with it.
+git merge <branch name>
+this will merge the specified branch with our master branch.
+Steps 
+1. git checkout master
+2. git merge develop -> merges the code and change reflected into local repository
+3 git push origin master 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
